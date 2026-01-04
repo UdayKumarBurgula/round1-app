@@ -16,9 +16,9 @@ function App() {
           {/*</section>*/}
           <section>
               <h2>ProgressBar</h2>
-              <Progressbar progress={70}></Progressbar>
+              <Progressbar progress={70} index={10}></Progressbar>
               <br></br>
-              <ProgressbarMultiple progresses={bars}></ProgressbarMultiple>
+              <ProgressbarMultiple  progresses={bars}></ProgressbarMultiple>
           </section>
 
     </div>
