@@ -37,9 +37,37 @@
   }
 }
 
+/*OTP PIN*/
+
 .otp-textbook {
     height: 20px;
     width: 50px;
     font-size: 20px;
     text-align: center;
+}
+
+/*progress-bar*/
+
+.progress-bar-container {
+       border: 1px solid dashed;
+       padding-left: 600px;
+       border-radius:initial;
+}
+
+.outer {
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.inner {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    height: 30px;
+    background-color: aqua;
 }
