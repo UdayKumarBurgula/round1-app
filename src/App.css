@@ -86,3 +86,26 @@
     text-align: right;
     transition: 0.5s ease-in;
 }
+
+/*file-explorer*/
+.file-explorer-container {
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    overflow: auto;
+    text-align: center;
+}
+
+.file-explorer-container-filelist {
+    width: 100%;
+    height: auto;
+    display: table;
+}
+
+.file-explorer-container-filelist-folder-contents {
+    border-color: burlywood;
+    border-width:2px;
+    background-color: aqua;
+    margin-left: 20px;
+    padding-left: 100px;
+}

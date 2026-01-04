@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "isFolder": true,
+    "name": "public",
+    "children": [
+      {
+        "id": 2,
+        "name": "index.html",
+        "isFolder": false
+      },
+      {
+        "id": 3,
+        "name": "styles.css",
+        "isFolder": false
+      },
+      {
+        "id": 4,
+        "name": "script.js",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "children": [
+      {
+        "id": 6,
+        "name": "App.js",
+        "isFolder": false
+      },
+      {
+        "id": 7,
+        "name": "index.js",
+        "isFolder": false
+      },
+      {
+        "id": 8,
+        "name": "components",
+        "isFolder": true,
+        "children": [
+          {
+            "id": 9,
+            "name": "Header.js",
+            "isFolder": false
+          },
+          {
+            "id": 10,
+            "name": "Footer.js",
+            "isFolder": false
+          }
+        ]
+      }
+    ],
+    "id": 5,
+    "isFolder": true,
+    "name": "src"
+  },
+  {
+    "id": 11,
+    "isFolder": false,
+    "name": "package.json"
+  },
+  {
+    "id": 12,
+    "isFolder": false,
+    "name": "README.md"
+  }
+]

@@ -3,6 +3,7 @@ import './App.css';
 import OTPValidation from './components/OTPValidation';
 import Progressbar from './components/Progressbar';
 import ProgressbarMultiple from './components/ProgressbarMultiple';
+import FileExplorer from './components/FileExplorer';
 
 function App() {
     const bars = [1, 10, 20, 50, 70];
@@ -14,13 +15,18 @@ function App() {
           {/*    <h2>OTP Validation Component</h2>*/}
           {/*    <OTPValidation></OTPValidation>  */}
           {/*</section>*/}
-          <section>
-              <h2>ProgressBar</h2>
-              <Progressbar progress={70} index={10}></Progressbar>
-              <br></br>
-              <ProgressbarMultiple  progresses={bars}></ProgressbarMultiple>
-          </section>
 
+          {/*<section>*/}
+          {/*    <h2>ProgressBar</h2>*/}
+          {/*    <Progressbar progress={70} index={10}></Progressbar>*/}
+          {/*    <br></br>*/}
+          {/*    <ProgressbarMultiple  progresses={bars}></ProgressbarMultiple>*/}
+          {/*</section>*/}
+
+          <section>
+               <h2> File and Folder structure</h2>
+               <FileExplorer></FileExplorer> 
+          </section>
     </div>
   );
 }
