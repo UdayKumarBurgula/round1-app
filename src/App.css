@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.otp-textbook {
+    height: 20px;
+    width: 50px;
+    font-size: 20px;
+    text-align: center;
+}
